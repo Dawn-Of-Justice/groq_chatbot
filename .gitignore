@@ -1,0 +1,4 @@
+.env
+/chatbot
+groq_chatbot/__pycache__
+flask_app/__pycache__
