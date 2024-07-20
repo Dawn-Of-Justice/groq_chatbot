@@ -19,6 +19,7 @@ The following packages are required to run the chatbot:
 - `langchain-cohere`
 - `langchain-groq`
 - `python-dotenv`
+- `flask`
 
 You can install these packages using the `requirements.txt` file.
 
@@ -55,10 +56,14 @@ You can install these packages using the `requirements.txt` file.
 
 ## Usage
 
+### Running the Chatbot
+
+To start the chatbot, follow these steps:
+
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any questions or inquiries, please contact your-email@example.com.
+For any questions or inquiries, please contact salosoja@gmal.com.
