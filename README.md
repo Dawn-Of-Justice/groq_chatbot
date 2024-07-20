@@ -47,7 +47,7 @@ You can install these packages using the `requirements.txt` file.
 
 4. **Set Up Environment Variables**
 
-    Create a .env file in the root directory and add your API keys, an example.env file is provided for reference:
+    Create a .env file in the root directory and add your API keys, an example_.env file is provided for reference:
 
     ```env
     COHERE_API_KEY=your_cohere_api_key
