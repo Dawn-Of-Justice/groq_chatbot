@@ -64,15 +64,15 @@ You can install these packages using the `requirements.txt` file.
 
 2. **Run the Chatbot Script:**
 
+### Running the Chatbot
+
+To start the chatbot, follow these steps:
+
    ```bash
    python run.py
    ```
 
     This will start the chatbot at http://127.0.0.1:5000, as indicated in the terminal. You can either press Ctrl and click the address to open it in a web browser or manually type the address.
-
-### Running the Chatbot
-
-To start the chatbot, follow these steps:
 
 ## License
 
