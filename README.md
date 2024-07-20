@@ -2,12 +2,12 @@
 
 ## Project Overview
 
-This project implements a chatbot designed to provide quick and accurate responses based on a corpus of information about a business that sells wines. The chatbot is deployed on the business's website to offer users immediate answers without requiring them to browse lengthy documents. If the chatbot cannot answer a query based on the available corpus, it directs users to contact the business directly.
+This project implements a chatbot designed to provide quick and accurate responses based on a corpus of information about a business that sells wines. The chatbot offers users immediate answers without requiring them to browse lengthy documents. If the chatbot cannot answer a query based on the available corpus, it directs users to contact the business directly.
 
 ## Features
 
 - Provides quick, context-based answers from a predefined corpus.
-- Informs users to contact the business directly if their query is not covered.
+- Informs users to contact the business directly if it's unable to answer.
 - Maintains a history of interactions to facilitate context-based responses.
 
 ## Requirements
@@ -28,8 +28,8 @@ You can install these packages using the `requirements.txt` file.
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/wine-business-chatbot.git
-   cd wine-business-chatbot
+   git clone https://github.com/Dawn-Of-Justice/groq_chatbot.git
+   cd groq_chatbot
    ```
 
 2. **Set Up a Virtual Environment (Recommended)**
@@ -47,7 +47,7 @@ You can install these packages using the `requirements.txt` file.
 
 4. **Set Up Environment Variables**
 
-    Create a .env file in the root directory and add your API keys:
+    Create a .env file in the root directory and add your API keys, an example.env file is provided for reference:
 
     ```env
     COHERE_API_KEY=your_cohere_api_key
