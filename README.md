@@ -56,6 +56,20 @@ You can install these packages using the `requirements.txt` file.
 
 ## Usage
 
+1. **Activate Your Virtual Environment** (if you are using one):
+
+   ```bash
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+2. **Run the Chatbot Script:**
+
+   ```bash
+   python run.py
+   ```
+
+This will launch the chatbot, which will prompt you to enter your queries.
+
 ### Running the Chatbot
 
 To start the chatbot, follow these steps:
