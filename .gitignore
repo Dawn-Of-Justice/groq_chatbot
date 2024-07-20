@@ -2,3 +2,5 @@
 /chatbot
 groq_chatbot/__pycache__
 flask_app/__pycache__
+.vscode
+tests/__pycache__
