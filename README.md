@@ -68,7 +68,7 @@ You can install these packages using the `requirements.txt` file.
    python run.py
    ```
 
-This will launch the chatbot, which will prompt you to enter your queries.
+This will launch the chatbot on http://127.0.0.1:5000, which you can see in the terminal, Just press ctrl and click the address to open in a web browser or manually type the address.
 
 ### Running the Chatbot
 

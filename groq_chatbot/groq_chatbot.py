@@ -10,6 +10,7 @@ from langchain.chains import create_retrieval_chain
 from dotenv import load_dotenv
 from collections import deque
 
+
 class DocumentResponder:
     def __init__(self, pdf_path):
         load_dotenv()
@@ -70,8 +71,10 @@ class DocumentResponder:
 
     def response(self, user_query, history):
         self.prompt = self.prompt_template.format(
-            history='\n'.join(f"Q: {q}\nA: {a}" for q, a in self.history), context="context", input=user_query
+            history="\n".join(f"Q: {q}\nA: {a}" for q, a in self.history),
+            context="context",
+            input=user_query,
         )
         res = self.retrieval_chain.invoke({"input": user_query, "history": history})
-        self.history.append({"question": user_query, "answer": res['answer']})
+        self.history.append({"question": user_query, "answer": res["answer"]})
         return res["answer"]
