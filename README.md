@@ -56,6 +56,10 @@ You can install these packages using the `requirements.txt` file.
 
 ## Usage
 
+### Running the Chatbot
+
+To start the chatbot, follow these steps:
+
 1. **Activate Your Virtual Environment** (if you are using one):
 
    ```bash
@@ -63,10 +67,6 @@ You can install these packages using the `requirements.txt` file.
    ```
 
 2. **Run the Chatbot Script:**
-
-    ### Running the Chatbot
-
-    To start the chatbot, follow these steps:
 
    ```bash
    python run.py
