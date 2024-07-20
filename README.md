@@ -64,9 +64,9 @@ You can install these packages using the `requirements.txt` file.
 
 2. **Run the Chatbot Script:**
 
-### Running the Chatbot
+    ### Running the Chatbot
 
-To start the chatbot, follow these steps:
+    To start the chatbot, follow these steps:
 
    ```bash
    python run.py
